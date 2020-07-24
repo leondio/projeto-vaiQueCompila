@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-EventDashApi<eventdashapi>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.paduan.eventdashapi.EventDashApi",
+            "projectName": "eventdashapi",
+            "args": ""
+        }
+    ]
+}

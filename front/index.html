@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/front/estilo.css">
+    <link rel="stylesheet" href="/front/boot.css">
+    <link rel="stylesheet" href="/front/login.css">
+
+    <script src="/front/js/jquery-3.3.1.js"></script>
+    <script src="/front/js/fa-all.js"></script>
+    <script src="/front/js/popper.min.js"></script>
+    <script src="/front/js/bootstrap.min.js"></script>
+    <script src="/front/js/login.js"></script>
+    <script src="/front/js/dados.js"></script>
+
+    <title>Login</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <a class="navbar-brand" href="#">
+
+            <img width="150" height="100" src='../img/logo.png'></div></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+    </nav>
+
+    <div class="table-responsive container-fluid">
+
+
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-xl-9 mx-auto">
+                <div class="card card-signin flex-row my-5">
+                    <div class="card-img-left d-none d-md-flex">
+
+                        <img width="150" height="150" src='../img/login.png'>
+                        <!-- Background image for card set in CSS! -->
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><b>Logar</b></h5>
+                        <hr class="my-4">
+                        <form class="form-signin" action="/login/" method="post">
+                            <div id="msgError"></div>
+                            <div class="form-label-group">
+                                <input type="text" id="txtUser" class="form-control" name="racf"
+                                    placeholder="E-mail/RACF" value="" autofocus>
+
+                            </div>
+
+                            <div class="form-label-group">
+                                <input type="password" id="txtSenha" class="form-control" name="password"
+                                    placeholder="Senha">
+                            </div>
+
+                            <button type="submit" class="btn btn-lg btn-dark btn-block text-uppercase"
+                                onclick="fazerlogin(event)">Acessar</button>
+                            <hr class="my-4">
+                    </div>
+
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
